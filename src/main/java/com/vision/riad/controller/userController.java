@@ -9,7 +9,7 @@ public class userController {
 	
 	@RequestMapping("test")
 	public String test() {
-		return "we will test to see";
+		return "we will test to see 2";
 	}
 
 }
