@@ -13,7 +13,7 @@ public class userController {
 	
 	@RequestMapping("test")
 	public String test() {
-		return "allez si brahim allez";
+		return "tesstt ";
 	}
 	
 	
