@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.vision.riad.model.User;
 
-//@RepositoryRestResource(collectionResourceRel = "users",path="users")
+@RepositoryRestResource(collectionResourceRel = "users",path="users")
 public interface UserDB extends JpaRepository<User,Integer>{
 
 }
