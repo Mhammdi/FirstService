@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.vision.riad.model.User;
 import com.vision.riad.security.UserSummary;
 
-@CrossOrigin(origins = "http://35.194.28.13:8080")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RepositoryRestResource(excerptProjection = UserSummary.class,collectionResourceRel = "users",path="users")
 public interface UserDB extends JpaRepository<User,Integer>{
 
